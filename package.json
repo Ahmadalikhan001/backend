@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is my first backend practice project",
+  "license": "ISC",
+  "author": "Ahmad_ALi_Khan",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoos": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  }
+}
